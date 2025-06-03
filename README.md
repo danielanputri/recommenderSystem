@@ -84,13 +84,13 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 ---
 **Exploratory Data Analysis (EDA)**
 - Rating Plot
-  ![Rating Plot]()
+  ![Rating Plot](https://github.com/danielanputri/recommenderSystem/blob/main/images/rating-plot.png)
   - Rating Paling Umum adalah 4.0: Frekuensi tertinggi ada pada skor rating 4.0.
   - Rating Tinggi Mendominasi: Skor rating 3.0, 3.5, 4.0, 4.5, dan 5.0 secara kolektif memiliki frekuensi yang jauh lebih tinggi dibandingkan skor rendah.
   - Skor di bawah 2.5 (terutama 0.5, 1.0, 1.5) memiliki frekuensi yang sangat rendah, mengindikasikan pengguna jarang memberikan penilaian sangat negatif.
     
 - Movie User Plot
-  ![Movie Plot]()
+  ![Movie User Plot](https://github.com/danielanputri/recommenderSystem/blob/main/images/user-plot.png)
   - Terdapat perbedaan yang sangat signifikan antara jumlah movie (sekitar 9600-9800) dengan jumlah pengguna (sekitar 600-700) dalam dataset.
   - Plot menunjukkan ketidakseimbangan yang besar, di mana jumlah item (movie) yang tersedia jauh mendominasi jumlah pengguna yang ada.
 
@@ -307,7 +307,7 @@ i = urutan data
 n = jumlah data
 
 Berikut plot MAE dari model:
-![Grafik train vs test]()
+![Grafik train vs test](https://github.com/danielanputri/recommenderSystem/blob/main/images/train%20vs%20test.png)
 
 **Evaluasi Terhadap Business Understanding**
 - Menjawab Problem Statement: Model yang dibuat berhasil menjawab problem statement dengan memberikan rekomendasi movie berdasarkan model yang ada. Pendekatan content-based filtering menggunakan model movie untuk memberikan rekomendasi yang relevan berdasarkan genre, sementara collaborative filtering memanfaatkan interaksi pengguna-item (rating) sebelumnya untuk menemukan pola preferensi pengguna.
